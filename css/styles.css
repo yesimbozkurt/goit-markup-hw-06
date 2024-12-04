@@ -776,8 +776,14 @@
      }
 
      .second-section .second-section-ul {
+         display: flex;
          flex-wrap: wrap;
+         margin-left: auto;
+         margin-right: auto;
+         justify-content: center;
          gap: 8px;
+         row-gap: 72px;
+         column-gap: 24px;
      }
 
      .second-section-ul .second-section-li {
@@ -791,32 +797,39 @@
      }
 
      .third-section .third-section-team-members-list {
+         display: flex;
+         flex-wrap: wrap;
          justify-content: center;
+         align-items: center;
          flex-direction: row;
-         column-gap: 64px;
-         row-gap: 24px;
-         min-width: 264px;
+         column-gap: 24px;
+         row-gap: 64px;
+         /* min-width: 264px; */
      }
 
      .third-section-team-members-list .team-member {
 
          margin-left: auto;
          margin-right: auto;
-         width: calc((100% - 24px) / 2);
+         width: 264px;
      }
 
      .fourth-section .fourth-section-ul {
-         min-width: 356px;
+         /* min-width: 356px; */
          justify-content: center;
          align-items: center;
          flex-direction: row;
          column-gap: 72px;
          row-gap: 24px;
+     }
 
+     .fourth-section-ul .fourth-section-list {
+         min-width: 356px;
      }
 
      .footer .container {
          flex-wrap: wrap;
+         flex-direction: row;
          justify-content: center;
          align-items: center;
      }
@@ -840,5 +853,71 @@
      }
  }
 
- @media (max-width: 767px)
+ /* Mobil */
+ @media (max-width: 767px) {
+     .container {
+         width: 100%;
+     }
+
+     .header .header-nav .nav-logo {
+         font-size: 18px;
+         line-height: 21px;
+         letter-spacing: 0.03em;
+     }
+
+     .header .navbar-list,
+     .header .navbar-right,
+     .second-section .second-section_icon {
+         display: none;
+     }
+
+     .second-section .second-section-ul {
+         display: flex;
+         flex-direction: column;
+         margin-left: auto;
+         margin-right: auto;
+     }
+
+     .second-section .second-section-li {
+         min-width: 288px;
+     }
+
+     .third-section-team-members-list {
+         display: flex;
+         flex-direction: column;
+         margin-left: auto;
+         margin-right: auto;
+         column-gap: 72px;
+
+     }
+
+     .third-section .team-member {
+         min-width: 264px;
+     }
+
+     .fourth-section .fourth-section-ul {
+         display: flex;
+         flex-direction: column;
+         margin-left: auto;
+         margin-right: auto;
+     }
+
+     .fourth-section .fourth-section-list {
+         min-width: 288px;
+     }
+
+     .footer .container {
+         flex-direction: column;
+     }
+
+     .footer .footer-subscribe .footer-form {
+         flex-direction: column;
+     }
+
+     .footer .footer-button {
+         width: 165px;
+     }
+
+ }
+
  /*EDİTED BY "YESİMBOZKURT"*/
