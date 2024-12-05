@@ -906,7 +906,7 @@ span {
     background-color: #ffffff;
   }
 
-  .header .navbar-menu-btn {
+  .header .navbar-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1018,6 +1018,8 @@ span {
     margin-left: auto;
     margin-right: auto;
     gap: 72px;
+    align-items: center;
+    justify-content: center;
   }
 
   .second-section .second-section-li {
@@ -1027,9 +1029,11 @@ span {
   .third-section-team-members-list {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    column-gap: 72px;
+    gap: 72px;
   }
 
   .third-section .team-member {
@@ -1039,8 +1043,10 @@ span {
   .fourth-section .fourth-section-ul {
     display: flex;
     flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: auto;
+    margin-right: auto; */
   }
 
   .fourth-section .fourth-section-list {
