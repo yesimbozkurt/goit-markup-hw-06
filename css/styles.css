@@ -903,7 +903,6 @@ span {
     position: absolute;
     right: 16px;
     top: 16px;
-    fill: #2f2f37;
     background-color: #ffffff;
   }
 
@@ -914,6 +913,8 @@ span {
     fill: #2f2f37;
     background-color: #ffffff;
     cursor: pointer;
+    text-decoration: none;
+    border: none;
   }
 
   .header .navbar-menu-icon {
@@ -921,6 +922,7 @@ span {
     background-color: #ffffff;
   }
   .menu {
+    display: flex;
     position: fixed;
     top: 0;
     right: 0;
