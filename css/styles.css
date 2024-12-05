@@ -149,7 +149,8 @@ ul {
   /* padding-left: 332px; */
 }
 
-.header .navbar-menu {
+.header .navbar-menu,
+.header .menu {
   display: none;
 }
 
@@ -789,7 +790,8 @@ span {
   }
 
   .second-section .second-section_icon,
-  .header .navbar-menu {
+  .header .navbar-menu,
+  .header .menu {
     display: none;
   }
 
