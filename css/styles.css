@@ -945,8 +945,6 @@ span {
     gap: 40px;
   }
 
-  .menu .menu-navigation-item {}
-
   .menu .menu-navigation-item-link {
     text-decoration: none;
     font-size: 36px;
@@ -977,9 +975,11 @@ span {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
+
   .menu .contact li:nth-last-child(1) .contact-link {
     color: #434455;
   }
+
   /* .menu .contact .contact-link:nth-child(1) {
     color: #4D5AE5;
   }

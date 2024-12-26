@@ -36,7 +36,7 @@
             </ul>
         </address>
         
-        <button type="button" class="navbar-menu">
+        <button type="button" class="navbar-menu" onclick="document.getElementById('menu').style.display='block'">
             <svg width="16" height="16" class="navbar-menu-icon">
                     <use href="./images/icons.svg#menu"></use>
             </svg>
@@ -53,7 +53,7 @@
             <h1 class="first-section-title">
                 Effective Solutions
                 for Your Business</h1>
-            <button class="first-section-button" type="button">
+            <button class="first-section-button" type="button" onclick="document.getElementById('modal').style.display='block'">
                 Order Service</button>
         </div>
     </section>
@@ -396,7 +396,7 @@
  </footer>
  <div class="modal-window" id="modal">
     <div class="modal-container">
-        <button class="modal-close-button" type="button">
+        <button class="modal-close-button" type="button" onclick="document.getElementById('modal').style.display='none'">
             <svg class="modal-icon" width="8" height="8">
                 <use href="./images/icons.svg#close"></use>
             </svg>
@@ -452,8 +452,9 @@
         </svg>
     </div>
  </div>
- <div class="visually-hidden menu">
-    <button class="close" type="button">
+ <div id="menu" class="menu">
+    <button class="close" type="button" onclick="document.getElementById('menu').style.display='none'">
+        
         <svg class="modal-icon" width="8" height="8">
             <use href="./images/icons.svg#close"></use>
         </svg>
